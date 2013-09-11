@@ -24,8 +24,8 @@ For more information on how to do step three, visit [this page](https://www.owas
 *  example.htm: Shows how the thing is embedded. You can play with it in the browser console. Not sure if it even still works to be honest, I made it a few versions back.
      Also, you need to set your browser to allow the thing to run etc. If you look at SocketJS.js it should be somewhat self explanatory.
      There is no provided Documentation, sorry.
-*  LICENCE.txt: The licence
-*  README.txt: This file
+*  LICENCE: The licence
+*  README.md: This file
 
 ###Example usage:
 
