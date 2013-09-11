@@ -33,7 +33,7 @@ For more information on how to do step three, visit [this page](https://www.owas
         console.log(success?"connected":"connection failed");
         if (success) {
           fd = id;
-          s = SocketJS.sendline_fn(id);
+          s = SocketJS.papply.sendline(id,"\r\n");
           s("GET / HTTP/1.1\r\nHost: www.google.com\r\n");
         }
       };
