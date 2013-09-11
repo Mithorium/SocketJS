@@ -3,6 +3,8 @@ SocketJS
 
 Sockets for the browser
 
+###Packaging
+
 To get into a useable state on my system, the following commands are performed:
 
     javac -cp "path\to\plugin.jar" SocketJS.java
@@ -11,8 +13,8 @@ To get into a useable state on my system, the following commands are performed:
 
 For more information on how to do step three, visit [this page](https://www.owasp.org/index.php/Signing_jar_files_with_jarsigner)
 
-Files included:
----------------
+###Files included:
+
 *  SocketJS.java: The source for the java backend
 *  manifest.mf: In theory this does something to allow the plugin to make sockets easier
 *  SocketJS.js: The javascript interface to the java plugin
@@ -25,8 +27,8 @@ Files included:
 *  LICENCE.txt: The licence
 *  README.txt: This file
 
-Example usage:
---------------
+###Example usage:
+
     var s, fd;
     (function(){
       var connect = function(id, success) {
@@ -51,3 +53,12 @@ Example usage:
         disconnect: disconnect
       });
     })();
+
+###TODO
+
+Currently, SocketJS only reads lines, not binary data, and returns them to you in a callback that is called whenever data is received.
+
+In the future, a manual read mode will be implemented, where the applet does not return data as it is received, but only when asked for.
+Data will still be returned via the callback, but you can alternate between readline and reading x bytes of possibly binary data.
+
+How binary data will be passed between java and js has not been determined, but likely data will need to be serialized/encoded in some way.
