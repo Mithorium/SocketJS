@@ -4,6 +4,7 @@ SocketJS
 Sockets for the browser
 
 To get into a useable state on my system, the following commands are performed:
+
     javac -cp "path\to\plugin.jar" SocketJS.java
     jar cvfm SocketJS.jar manifest.mf *.class
     jarsigner -keystore <path\to\keystore> SocketJS.jar <alias>
