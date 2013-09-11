@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Codebase: *
+Permissions: all-permissions
+Trusted-Library: true
+
