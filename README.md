@@ -20,10 +20,8 @@ For more information on how to do step three, visit [this page](https://www.owas
 *  SocketJS.js: The javascript interface to the java plugin
 *  SocketJS.jar: A prepackaged version of the provided SocketJS.java
 *  SocketJS_applet.jnlp: Some thing that has to exist to make the plugin run in a browser or something I don't really know
-*  deployJava.js: Got this off java.com, do what you want
 *  example.htm: Shows how the thing is embedded. You can play with it in the browser console. Not sure if it even still works to be honest, I made it a few versions back.
      Also, you need to set your browser to allow the thing to run etc. If you look at SocketJS.js it should be somewhat self explanatory.
-     There is no provided Documentation, sorry.
 *  LICENCE: The licence
 *  README.md: This file
 
